@@ -1,0 +1,135 @@
+@media (max-width: 944px) {
+    .strikethrough {
+        font-size: 40px;
+    }
+    .intro h1 {
+        font-size: 60px;
+    }
+}
+
+
+@media (max-width: 1140px) {
+    .strikethrough {
+        font-size: 45px;
+    }
+}
+
+
+@media (max-width: 871px) {
+    .strikethrough {
+        font-size: 35px;
+    }
+}
+@media (max-width: 785px) {
+    .strikethrough {
+        font-size: 30px;
+    }
+}
+@media (max-width: 601px) {
+    .strikethrough {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1273px) {
+    .code_elements h3{
+        font-size: 25px;
+    }
+    .code_elements p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .code_elements h3{
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width:545px) {
+    .hello_img {
+        margin-left: 0px;
+        width: 350px;
+    }
+}
+
+
+@media (max-width: 545px) {
+    .section_3 {
+        width: 545px;
+    }
+    .info_img_1212 {
+        width: 400px;
+    }
+    .vscode_img {
+        width: 400px;
+    }
+    .extensions p {
+      
+        margin: 0;
+        font-size: 20px;
+        max-width: 400px;
+    }
+    .many_photos, .many_photos_2 {
+        flex-direction: column;
+    }
+    .facebook {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+@media (max-width:545px) {
+    .start_wrapper {
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin-left: 0;
+    }
+    .first_wrapper {
+        margin-bottom: 50px;
+    }
+    .strange_text {
+        
+        margin-left: 180px;
+    }
+    .first_wrapper, .second_wrapper {
+        padding: 0px;
+    }
+    .first_wrapper p {
+        font-size: 20px;
+        max-width: 511px;
+        text-align: center;
+    }
+    .icons_info  {
+        width: 500px;
+        margin: 15px;
+    }
+    .ending_top {
+        flex-direction: column;
+        justify-content: center;
+        border-bottom:none;
+        padding-bottom: 0px;
+    }
+    .ending_center {
+        margin-left: 200px;
+    }
+    .ending_bottom {
+        flex-direction: column;
+    }
+    .bottom_2part {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .bottom_1part span {
+        padding-left: 10px;
+        text-align: center;
+    }
+    .bottom_1part {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
