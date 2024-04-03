@@ -132,4 +132,7 @@
         flex-direction: row;
         align-items: center;
     }
+    .code_info {
+        flex-wrap: wrap;
+    }
 }

@@ -154,10 +154,12 @@ h2 {
 
 /* screen_2 end */
 /* screen_3 start */
-
+.screen_3 {
+    margin-bottom: 177px;
+}
 .code_info {
     display: flex;
-    flex-wrap: wrap;
+    
 }
 .code_elements {
         display: flex;
