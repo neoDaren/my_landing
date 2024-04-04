@@ -7,6 +7,11 @@
     .hello_main_wrapper {
         flex-wrap: wrap;
     }
+}
+@media (max-width: 900px) {
+    .start_wrapper {
+        flex-wrap: wrap;
+    }
     
 }
 

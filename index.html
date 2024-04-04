@@ -84,9 +84,14 @@
     </section>
     <section class="screen_4">
         <h2>Remote-first. Secure by design.</h2>
-        <img src="./img/vs_code.png" alt="" class="vscode_img">
+        <div class="extension_img">
+            <img src="./img/vs_code.png" alt="" class="vscode_img">
+        </div>  
             <div class="extensions">
-                <p> You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes all source code and never stores it on insecure machines and networks.</p>
+                <div class="extension_text">
+                    <p> You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes all source code and never stores it on insecure machines and networks.</p>
+                </div>
+                </div>
                 <div class="extensions_btn">
                     <div class="corner">
                         <button class="btn_browser"><img src="./img/google_icon.png" alt="google">Chrome Extension</button>        
@@ -161,10 +166,15 @@
         perMove: 1,
         interval:1000,
         breakpoints: {
-            545: {
+            1000: {
+                perPage:2,
+            },
+            700: {
                 perPage:1,
-            }
-        }
+            },
+        },
+        
+
       });
       splide.mount();
     } );
@@ -173,47 +183,78 @@
     <section class="screen_6">
     <div class="many_wrapper">
         <div class="many_photos">
-            <img src="./img/foto1.png" alt="">
-            <img src="./img/foto2.png" alt="">
-            <img src="./img/foto3.png" alt="">
-            <img src="./img/foto4.png" alt=""class="facebook">
-            <img src="./img/foto5.png" alt="" class="facebook">
-            <img src="./img/foto6.png" alt="">
+            <div class="many_3_photos">
+                <a href=""><img src="./img/foto1.png" class="logo" alt=""></a>
+            </div>
+            <div class="many_3_photos">
+                <a href=""> <img src="./img/foto2.png" class="logo" alt=""></a>
+            </div>
+             <div class="many_3_photos">
+                <a href=""><img src="./img/foto3.png" class="logo" alt=""></a>
+            </div>
+            
+            <div class="many_3_photos">
+                <a href=""><img src="./img/foto4.png" class="logo" alt=""></a>
+            </div>
+            <div class="many_3_photos">
+                <a href=""><img src="./img/foto5.png"class="logo"  alt=""></a>
+            </div>
+            <div class="many_3_photos">
+                <a href=""><img src="./img/foto6.png"class="logo"  alt=""></a>
+            </div>
         </div>
         <div class="many_photos_2">
-            <img src="./img/foto7.png" alt="">
-            <img src="./img/foto8.png" alt="">
-            <img src="./img/foto9.png" alt="">
-            <img src="./img/foto10.png" alt="">
-            <img src="./img/foto11.png" alt="">
+            <div class="many_3_photos">
+                <a href=""><img src="./img/foto7.png"class="logo"  alt=""></a>
+            </div>
+            <div class="many_3_photos">
+                <a href=""><img src="./img/foto8.png"class="logo"  alt=""></a>
+            </div>
+            <div class="many_3_photos">
+                <a href=""><img src="./img/foto9.png" class="logo" alt=""></a>
+            </div>
+            <div class="many_3_photos">
+                <a href=""><img src="./img/foto10.png"class="logo"  alt=""></a>
+            </div>
+            <div class="many_3_photos">
+                <a href=""><img src="./img/foto11.png"class="logo"  alt=""></a>
+            </div>
         </div>
-    </div>
     </section>
     <section class="screen_7">
         <h2>Get started now</h2>
         <div class="start_wrapper">
             <div class="first_wrapper">
-                <h3>Connect Git repository</h3>
-                <p>Select a Git provider to start with an existing project from any Git context.</p>
+                <div class="h3_wrapper">
+                    <h3 class="text_h3_wrapper">Connect Git repository</h3>
+                </div>
+                <div class="p_wrapper">
+                    <p class="text_p_wrapper">Select a Git provider to start with an existing project from any Git context.</p>
+                </div>
                 <div class="wrap_btns">
                     <button class="wrap_btn"><img src="./img/btn_foto.png" alt="">Continue with GitLab</button>
                     <button class="wrap_btn wrap_btn_2"><img src="./img/btn_foto_2.png" alt="">Continue with GitHub</button>
                     <button class="wrap_btn wrap_btn_3"><img src=".//img/btn_foto_3.png" alt="">Continue with Bitbucket</button>
                 </div>
-                <p class="wrap_text">Or prefix any GitLab, GitHub or Bitbucket URL with</p>
-
-                    <p class="strange_text">gitpod.io/#</p>
+                    <div class="wrap_text_cont">
+                        <p class="wrap_text">Or prefix any GitLab, GitHub or Bitbucket URL with</p>
+                    </div>
+                    <div class="strange_text_cont">
+                        <p class="strange_text">gitpod.io/#</p>
+                    </div>
             </div>
             <div class="second_wrapper">
-                <h3>Launch an example workspace</h3>
+                <div class="wrapper_2_h3">
+                    <h3 class="text_h3_wrapper_2">Launch an example workspace</h3>
+                </div>
                 <p>Dive into one of our example workspaces</p>
                 <div class="icons_info_btns"></div>
                     <div class="icons_info"><div><img src="./img/TS_icon.png" alt=""></div> <div><span>Node or TypeScript</span></div> <div><button class="launch">Launch workspace</button></div></div>
-                    <div class="icons_info"><img src="./img/python_icon.png" alt=""><span>Python</span><button class="launch">Launch workspace</button></div>
-                    <div class="icons_info"><img src="./img/go_icon.png" alt=""><span>Go</span><button class="launch">Launch workspace</button></div>
-                    <div class="icons_info"><img src="./img/rust_icon.png" alt=""><span>Rust</span><button class="launch">Launch workspace</button></div>
-                    <div class="icons_info"><img src="./img/java_icon.png" alt=""><span>Java</span><button class="launch">Launch workspace</button></div>
-                    <div class="icons_info"><img src="./img/svelte_icon.png" alt=""><span>Svelte</span><button class="launch">Launch workspace</button></div>
+                    <div class="icons_info"><div><img src="./img/python_icon.png" alt=""></div><div><span>Python</span></div><div><button class="launch">Launch workspace</button></div></div>
+                    <div class="icons_info"><div><img src="./img/go_icon.png" alt=""></div><div><span>Go</span></div><div><button class="launch">Launch workspace</button></div></div>
+                    <div class="icons_info"><div><img src="./img/rust_icon.png" alt=""></div><div><span>Rust</span></div><div><button class="launch">Launch workspace</button></div></div>
+                    <div class="icons_info"><div><img src="./img/java_icon.png" alt=""></div><div><span>Java</span></div><div><button class="launch">Launch workspace</button></div></div>
+                    <div class="icons_info"><div><img src="./img/svelte_icon.png" alt=""></div><div><span>Svelte</span></div><div><button class="launch">Launch workspace</button></div></div>
                 </div>
             </div>
         </div>

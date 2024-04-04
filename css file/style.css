@@ -27,6 +27,7 @@ a {
     line-height: 24px;
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 button {
     cursor: pointer;
@@ -189,7 +190,7 @@ h2 {
         margin-right: 66px;
     }
 .code_elements {
-    max-width: 655px;
+    max-width: 600px;
 }
 .code_elements h3 {
     font-size: 32px;
@@ -233,6 +234,7 @@ h2 {
     align-items: center;
     justify-content: center;
     max-width: 590px;
+    flex-grow: 1;
     
 }
 .info_img_1212 {
@@ -240,21 +242,38 @@ h2 {
 }
 /* screen_3 end */
 /* screen 4 start */
-.screen_4 img {
-    margin: 48px 0;
-
+.vscode_img {
+    width: 100%;
 }
-.extensions p {
+.extension_img {
+    margin: 48px 0;
+}
+
+
+.extensions {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0;
+}
+.extension_text {
+    display: flex;
+    justify-content: space-around;
+   
+    margin-bottom: 24px;
+}
+.extension_text p {
     font-family: "Roboto";
     font-size: 24px;
     line-height: 133%;
     text-align: center;
     color: #12100CB2;
     width: 900px;
-    margin-left: 205px;
     padding: 0 11px;
-    margin-bottom: 32px;
+   
 }
+
+
+
 .extensions_btn {
     display: flex;
     justify-content: center;
@@ -264,10 +283,9 @@ h2 {
     top: 10px;
     border: 1px solid black;
     width: 207px;
-  height: 46px;
+    height: 46px;
 }
 .btn_browser {
-  
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -330,10 +348,22 @@ h2 {
 .screen_6 {
     padding-top: 91px;
 }
+.logo {
+    width: 100%;
+}
 .many_wrapper {
     display: flex;
     flex-direction: column;
-  
+}
+.many_photos {
+    display: flex;
+    flex-direction: row;
+}
+.many_3_photos {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-around;
+   
 }
 .many_photos, .many_photos_2 {
     display: flex;
@@ -341,9 +371,11 @@ h2 {
     align-items: center; 
     gap: 0 15px;
 }
-.many_photos, .many_photos_2 img {
-    margin-bottom: 50px;
+
+.many_photos_2 img {
+    width: 100%;
 }
+
 
 /* screen 6 end */
 /* screen 7 start */
@@ -353,20 +385,26 @@ h2 {
 .screen_7 h2 {
     margin-bottom: 48px;
 }
-h3 {
+.h3_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+.text_h3_wrapper{
     font-family: "Roboto-Bold";
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
     text-align: center;
-    margin-top: 58px;
-
 }
 .start_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0 26px;
+    gap: 26px;
     max-width: 1310px;
+    display: flex;
+
+
 }
 .start_wrapper p {
     text-align: center;
@@ -374,25 +412,46 @@ h3 {
 .first_wrapper, .second_wrapper {
     background-color: white;
     border-radius: 20px;
-    padding: 0 98px;
+   
 }
 .first_wrapper {
     display: flex;
     flex-direction: column;
-  flex-grow: 1;
+
     height: 651px;
-    flex-basis: 642px;
+    max-width: 100vw;
+    flex-basis: 50%;
+
 }
 .second_wrapper {
-    flex-basis: 642px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    flex-basis: 50%;
 }
-.first_wrapper p {
- 
-font-size: 24px;
-font-weight: 400;
-line-height: 31.92px;
-
-
+.wrapper_2_h3 {
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 56px;
+}
+.text_h3_wrapper_2 {
+    font-family: "Roboto-Bold";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+   
+}
+.text_p_wrapper{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.92px;
+}
+.p{
+    max-width: 530px;
+    display: flex;
+    justify-content: center;
 }
 .wrap_btns {
     margin-top: 64px;
@@ -427,6 +486,11 @@ line-height: 31.92px;
    background-color: 
    #2684FF;
 }
+.wrap_text_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .wrap_text {
     font-family: "Roboto";
     font-size: 24px;
@@ -436,15 +500,15 @@ line-height: 31.92px;
     margin-bottom: 6px;
     
 }
+.strange_text_cont {
+    display: flex;
+    justify-content: center;
+}
 .strange_text {
     background-color:  #FFE4BC;
     width: 151px;
     height: 31px;
     border-radius: 12px;
-  
-    margin-left: 100px;
-    margin-bottom: 86px;
-    
 }
 
 .icons_info_btns {
@@ -454,14 +518,18 @@ line-height: 31.92px;
     
 }
 .icons_info {
-    display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
-    width: 530px;
+    margin: 0 10px;
+    /* display: grid; */
+    display: flex;
+    /* grid-template-columns: 1fr 8fr 1fr; */
+    /* width: 530px; */
     height: 56px;
     border-radius: 12px;
     background-color: #F9F9F9;
-   margin-bottom: 24px;
+    margin-bottom: 24px;
     align-items: center;
+    justify-content: space-around;
+
 }
 
 
