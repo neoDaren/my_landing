@@ -473,6 +473,9 @@ h2 {
     text-align: center;
    
 }
+.p_wrapper {
+  margin: 0 10px;
+}
 .text_p_wrapper{
     font-size: 24px;
     font-weight: 400;
@@ -526,7 +529,7 @@ h2 {
 }
 .wrap_text {
     font-family: "Roboto";
-    font-size: 24px;
+    font-size: calc(0.2vw + 21px);
     line-height: 31.92px;
     text-align: center;
   
@@ -573,6 +576,7 @@ h2 {
     background-color: #000000;
     border: none;
     color: #FFFFFF;
+    margin-right: 10px;
    float: right;
     
    
@@ -620,15 +624,25 @@ h2 {
 
 .ending_bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 33px;
-
+    margin-bottom: 32px;
+}
+.bottom_1part {
+    display: flex;
+    gap: 0 8px;
+}
+.frame_span {
+    display: flex;
+    align-items: center;
 }
 .bottom_2part {
     display: flex;
     flex-direction: row;
     gap: 0 15px;
-    margin-right: 294px;
+  
+    justify-content: right;
+    
    
 }
 

@@ -9,7 +9,12 @@
     }
 }
 
-
+/* @media (max-width: 897px) {
+    .p_wrapper {
+        margin-right: 25px;
+    }
+    
+} */
 /* @media (max-width:545px) {
     .hello_img {
         margin-left: 0px;
