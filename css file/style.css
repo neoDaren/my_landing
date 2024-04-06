@@ -588,9 +588,16 @@ h2 {
 
 /* ending start */
 .ending {
-    width: 100vw;
+    
     background: white;
     margin-top: 160px;
+    /* background-color: white;
+    max-width: 100vw;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 160px;
+    flex-wrap: wrap; */
 }
 .ending_center {
     display: flex;
@@ -615,6 +622,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     padding-top: 33px;
+
 }
 .bottom_2part {
     display: flex;
